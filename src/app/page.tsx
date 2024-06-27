@@ -25,10 +25,10 @@ const Home = () => {
   }
 
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen ">
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="p-8 rounded-lg space-y-6 w-full max-w-lg"
+        className="p-8 border  rounded-lg space-y-6 w-full max-w-lg"
       >
         <h2 className="text-2xl font-medium">Profile Form</h2>
         <div className="space-y-5">
